@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<Html>
+  <Head><Title>Tebar Inc</Title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <Style>
+       H1{
+           Font-Weight:Bold;
+           Font-Family:"Copperplate Gothic";
+           Font-Size: 40px;
+           }
+       H1.H{
+           Font-Family:"Copperplate Gothic";
+           Font-Weight: Bold; 
+           Font-Size: 20px;
+           Font-Color: Brown;
+           }
+        H1.HH{
+           Font-Family:"Copperplate Gothic";
+           Font-Weight: Bold; 
+           Font-Size: 30px;
+           Font-Color: Brown;           
+           }
+       Body{
+                Background-Size:cover;
+	Background-Repeat: No-Repeat;
+                Background-position: Center;
+               }
+       div.Black{
+              Opacity: 0.60;
+              Filter:alpha(opacity=70);
+              Background: url("Black.JPG");
+              }  
+      div:hover {
+ 	opacity: 100;
+	}       
+      .Button{ 
+                  background-color: Black;
+                  border: none;
+                  border-radius:4px 20px 4px 20px;
+                  Color:White;
+                  padding:10px;
+                  text-align:Center;
+                  text-Decorations:None;
+                  Display:Inline-Block;
+                  Font Size:18px;
+                  Font-Weight:Bold;
+                  margin:5px 5px;
+                  transition-duration:0.3s;
+                  Cursor: Pointer;
+                  Opacity: 1.0;
+                  }
+    .Button:hover {
+                 background-color:Silver;
+                 Color: Black;
+                 }                      
+    </Style>
+   </Head>
+<Body Background="Back.JPG" >
+<div Class="Black"> &nbsp;
+<a href="TeBar.HTML"><button Class="Button" onClick="ho()">Home</button></a>
+<button Class="Button" onClick="pr()">Products</button>
+<button Class="Button"  onClick="ab()">AboutUs</button>
+</div>
+<div align=right><Marquee align="right" Direction="Left" Style="Font-Size: 20px" TrueSpeed=>This Page Is In Under Development Process</Marquee></div>
+<H1>TeBar Inc.
+ </H1>
+<H1 Class="H">What We Do? </H1>
+<Div><UL Type="Disc">
+   <LI>We are Developing Softwares <br>From Core Level.
+   <LI>Providing Most Efficient trusted Apps
+   <LI>Managing Popular Firm's Projects
+</UL>
+<H1 Class="H">Our Last Windows Application Is...</H1>
+<H1 Class="HH">"ELIXIR" notepad.</H1>    
+ <Div><IMG SRC="IMG.png" alt="Image">
+<p>A Usual <Strong>Non-Microsoft</Strong> Notepad Application.
+<A rel="NotePad" href="https://drive.google.com/open?id=0B75ucEQ6kodwT25CRVcxSGJNdWs">Click Here</a>to Download.</p></Div>          
+<script type="text/javascript">
+function pr() {alert("Our Feature Projects Appears Here");}
+function ab() {alert("Some Text Here");};
+</script>
+</Body>
+</Html>
